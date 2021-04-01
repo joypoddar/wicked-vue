@@ -1,0 +1,45 @@
+<template>
+  <section class="flex flex-wrap items-center h-screen md">
+    <div class="container w-full h-screen bg-white md:w-1/2">
+      <div class="mx-5 lg:mx-32">
+        <a
+          class="flex items-center w-48 mt-32 mb-4 font-medium text-gray-900 title-font md:mb-0 lg:mt-16"
+        >
+          <img src="../badges/WhitePink.svg" alt="" />
+        </a>
+        <div class="flex mt-16 font-light text-gray-500">
+          <div class="pr-4">
+            <h1
+              class="mb-6 text-2xl font-semibold tracking-tighter text-blue-700 sm:text-6xl title-font"
+            >
+              Short Header.
+            </h1>
+          </div>
+        </div>
+        <div
+          class="w-full mt-16 text-base font-medium text-gray-700 sm:md:w-3/3 mb-8leading-relaxed"
+        >
+          All you have to do is choose the section you need, remove the one that
+          you do not need for that project and paste the one you need in that
+          moment. All the section have been given the same left/right padding.
+          Because consistence is king. (Bullshit)
+        </div>
+        <div class="flex mt-12">
+          <button
+            class="flex items-center px-4 py-2 mt-auto font-semibold text-white transition duration-500 ease-in-out transform rounded-lg shadow-xl bg-gradient-to-r from-blue-700 hover:from-blue-600 to-blue-600 hover:to-blue-700 focus:ring focus:outline-none"
+          >
+            Action
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="hidden w-full h-screen bg-center bg-cover md:w-1/2 lg:block">
+      <!----Image will be full height/width-->
+      <img
+        src="https://dummyimage.com/1000x1000/8693ac/ffffff"
+        class="object-fill w-full h-screen"
+        alt=""
+      />
+    </div>
+  </section>
+</template>
