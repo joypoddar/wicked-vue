@@ -6,7 +6,7 @@
       <a
         class="flex items-center w-40 mb-4 font-medium text-gray-900 title-font md:mb-0"
       >
-        <img src="../../badges/WhitePink.svg" alt="" />
+        <img src="../../assets/badges/WhitePink.svg" alt="" />
       </a>
       <nav
         class="flex flex-wrap items-center justify-center text-base md:ml-auto md:mr-auto"
