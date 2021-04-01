@@ -1,0 +1,39 @@
+<template>
+  <body>
+    <header class="text-gray-700 bg-white border-t border-b body-font">
+      <div
+        class="container flex flex-col flex-wrap p-5 mx-auto md:items-center md:flex-row"
+      >
+        <a
+          class="flex items-center w-40 mb-4 font-medium text-gray-900 title-font md:mb-0"
+        >
+          <img src="../../assets/badges/WhitePink.svg" alt="" />
+        </a>
+        <div class="flex items-end ml-auto w-2/2">
+          <div class="relative w-1/2 mr-4 text-left">
+            <input
+              type="text"
+              id="hero-field"
+              name="hero-field"
+              class="flex-grow w-full px-4 py-2 mr-4 text-base text-blue-700 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0"
+            />
+          </div>
+          <button
+            class="flex items-center px-4 py-2 mt-auto font-semibold text-white transition duration-500 ease-in-out transform rounded-lg l bg-gradient-to-r from-blue-700 hover:from-blue-600 to-blue-600 hover:to-blue-700 focus:ring focus:outline-none"
+          >
+            Action
+          </button>
+        </div>
+      </div>
+    </header>
+    <div
+      class="container w-full p-20 m-4 mx-auto my-16 text-center bg-white border-2 border-dashed border-blueGray-300 h-96 rounded-xl"
+    >
+      <p
+        class="mt-20 italic tracking-tighter text-md text-blueGray-500 title-font"
+      >
+        -- Content goes here --
+      </p>
+    </div>
+  </body>
+</template>
