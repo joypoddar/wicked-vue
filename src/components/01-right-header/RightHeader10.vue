@@ -1,0 +1,54 @@
+<template>
+  <section class="text-gray-700 body-font">
+    <div
+      class="container flex flex-col items-center px-5 py-16 mx-auto lg:px-20 lg:py-24 md:flex-row"
+    >
+      <div class="w-5/6 mb-10 lg:max-w-lg lg:w-full md:w-1/2 md:mb-0">
+        <img
+          class="object-cover object-center rounded"
+          alt="hero"
+          src="https://dummyimage.com/720x600/F3F4F7/8693ac"
+        />
+      </div>
+      <div
+        class="flex flex-col items-center text-center lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 md:items-start md:text-left"
+      >
+        <div class="flex flex-wrap -mx-4 -mt-4 -mb-10 sm:-m-4">
+          <div
+            class="flex flex-col items-center w-full p-4 mb-6 text-center md:mb-0 lg:text-left lg:items-start"
+          >
+            <div
+              class="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 mb-5 text-blue-800 bg-gray-200 rounded-full"
+            >
+              <svg
+                class="w-10 h-10"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="34"
+                height="24"
+                fill="currentColor"
+              >
+                <path fill="none" d="M0 0h24v24H0z" />
+                <path
+                  d="M5.68 7.314l-1.82 5.914L12 19.442l8.14-6.214-1.82-5.914L16.643 11H7.356L5.681 7.314zM15.357 9l2.888-6.354a.4.4 0 0 1 .747.048l3.367 10.945a.5.5 0 0 1-.174.544L12 21.958 1.816 14.183a.5.5 0 0 1-.174-.544L5.009 2.694a.4.4 0 0 1 .747-.048L8.644 9h6.712z"
+                />
+              </svg>
+            </div>
+            <div class="flex-grow">
+              <h1
+                class="mb-8 text-2xl font-bold tracking-tighter text-center text-blue-800 lg:text-left lg:text-3xl title-font"
+              >
+                Medium length headline
+              </h1>
+              <p class="text-base leading-relaxed">
+                Oh, supercalifragilisticexpialidocious! Even though the sound of
+                it is something quite atrocious If you say it loud enough you'll
+                always sound precocious Supercalifragilisticexpialidocious!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
