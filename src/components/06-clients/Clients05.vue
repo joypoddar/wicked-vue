@@ -1,0 +1,60 @@
+<template>
+  <section class="text-gray-700 body-font">
+    <div class="container px-8 pt-48 pb-24 mx-auto lg:px-4">
+      <div class="flex flex-wrap -m-4">
+        <div class="p-4 mx-auto mb-6 lg:w-1/3 lg:mb-0">
+          <div class="h-full text-left">
+            <p class="text-base font-medium leading-relaxed text-gray-700">
+              "Skate ipsum dolor sit amet, slam birdie wheels ollie darkslide
+              egg plant. Baseplate 540 helipop flypaper feeble griptape. Nollie
+              deck street bluntslide half-cab yeah. Casper slide ollie north 540
+              Bill Danforth slide cess slide nose blunt. Pressure flip
+              Streetstyle in Tempe mute-air judo air backside fastplant yeah. ".
+            </p>
+            <a class="inline-flex items-center mt-6">
+              <img
+                alt="testimonial"
+                class="inline-block object-cover object-center w-20 h-20 mb-8 bg-gray-100 rounded-full"
+                src="https://dummyimage.com/302x302/94a3b8/ffffff"
+              />
+              <span class="flex flex-col flex-grow pl-4">
+                <span class="font-medium text-gray-900 title-font"
+                  >Adi Pio</span
+                >
+                <span class="text-sm text-gray-500 uppercase"
+                  >Corporate Position</span
+                >
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="p-4 mx-auto mb-6 lg:w-1/3 lg:mb-0">
+          <div class="h-full text-left">
+            <p class="text-base font-medium leading-relaxed text-gray-700">
+              "Skate ipsum dolor sit amet, slam birdie wheels ollie darkslide
+              egg plant. Baseplate 540 helipop flypaper feeble griptape. Nollie
+              deck street bluntslide half-cab yeah. Casper slide ollie north 540
+              Bill Danforth slide cess slide nose blunt. Pressure flip
+              Streetstyle in Tempe mute-air judo air backside fastplant yeah. ".
+            </p>
+            <a class="inline-flex items-center mt-6">
+              <img
+                alt="testimonial"
+                class="inline-block object-cover object-center w-20 h-20 mb-8 bg-gray-100 rounded-full"
+                src="https://dummyimage.com/302x302/94a3b8/ffffff"
+              />
+              <span class="flex flex-col flex-grow pl-4">
+                <span class="font-medium text-gray-900 title-font"
+                  >Anna Schönn</span
+                >
+                <span class="text-sm text-gray-500 uppercase"
+                  >Corporate Position</span
+                >
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
